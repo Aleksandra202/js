@@ -35,7 +35,7 @@ function moveRight(e){
 
     h_position += step
 
-    if (h_position >1000) {
+    if (h_position >1135) {
         alert('move left')
     } else {
         console.log(div1.style.left, h_position)
@@ -77,7 +77,7 @@ function moveDown(e){
 
     v_position += step
 
-    if (v_position > 400) {
+    if (v_position > 200) {
         alert('move top')
     } else {
         console.log(div1.style.left, v_position)
